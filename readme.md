@@ -41,7 +41,8 @@ Operator(Assignment), Integer(4), Symbol(Semicolon), Keyword(Return), Id("a"), O
 
 
 
-专业名称:
+专业名词:
+
 汇编(assembly),抽象语法树(Abstract_syntax_tree:AST)
 
 参考资料：
