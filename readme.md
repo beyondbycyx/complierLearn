@@ -43,3 +43,9 @@ Operator(Assignment), Integer(4), Symbol(Semicolon), Keyword(Return), Id("a"), O
 
 专业名称:
 汇编(assembly),抽象语法树(Abstract_syntax_tree:AST)
+
+参考资料：
+1. <a href="http://blog.jobbole.com/114466/">人人都能读懂的编译器原理</a>
+2. <a href="http://blog.jobbole.com/96225/">帮 C/C++ 程序员彻底了解链接器</a>
+ 
+
