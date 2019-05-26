@@ -32,7 +32,7 @@ Operator(Assignment), Integer(4), Symbol(Semicolon), Keyword(Return), Id("a"), O
       
 2.中间端：略
 
-3.后端：代码生成器或者表达式解析器
+3.后端：代码生成器(generator)或者表达式解析器
         3.1 代码生成器：接收一个 AST ,然后生成相应的代码或者汇编代码
         
 4.写入汇编文件(.s 或 .asm)
