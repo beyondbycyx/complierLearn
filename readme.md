@@ -11,7 +11,7 @@ gcc(gnu compiler collection)处理过程：
 
 1.前端:
 
-      1.1词法分析器：
+      1.1词法分析器(lexer)：
       
       
 <code>
@@ -27,7 +27,7 @@ Scanner production:
 Operator(Assignment), Integer(4), Symbol(Semicolon), Keyword(Return), Id("a"), Operator(Minus), Id("b"), Symbol(Semicolon), Symbol(RBrace)]
 </code>
     
-      1.2解析器:
+      1.2解析器(parser):
          解析时产生的树状结构被称为 抽象的语法树，或者称之为 AST
       
 2.中间端：略
