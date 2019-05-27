@@ -3,6 +3,7 @@ gcc(gnu compiler collection)处理过程：
 2. hello.i ->编译器(ccl) -> hello.s(汇编文件)
 3. hello.s ->汇编器(as:处理汇编文件) ->hello.o(relocatable object file:二进制文件)
 4. hello.o + printf.o + XXX.o -> 链接器(linker ) -> hello (executable object file,可执行目标文件如 xx.exe)
+
       4.1 符号解析：
       4.2 重定位：
 
