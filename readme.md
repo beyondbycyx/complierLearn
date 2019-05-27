@@ -1,6 +1,9 @@
 gcc(gnu compiler collection)处理过程：
 1. hello.c ->预处理器(cpp:处理#的头文件) -> hello.i 
 2. hello.i ->编译器(ccl) -> hello.s(汇编文件)
+
+      2.1 “汇编语言”：<a href="http://www.ruanyifeng.com/blog/2018/01/assembly-language-primer.html">汇编语言入门教程</a>
+      
 3. hello.s ->汇编器(as:处理汇编文件) ->hello.o(relocatable object file:二进制文件)
 4. hello.o + printf.o + XXX.o -> 链接器(linker ) -> hello (executable object file,可执行目标文件如 xx.exe)
 
@@ -45,7 +48,8 @@ Operator(Assignment), Integer(4), Symbol(Semicolon), Keyword(Return), Id("a"), O
 
 专业名词:
 
-汇编(assembly),抽象语法树(Abstract_syntax_tree:AST)
+汇编(assembly),抽象语法树(Abstract_syntax_tree:AST),
+ESP（Extended Stack Pointer,扩展栈指针寄存器)寄存器：是指针寄存器的一种，用于存放函数栈顶指针。
 
 参考资料：
 1. <a href="http://blog.jobbole.com/114466/">人人都能读懂的编译器原理</a>
@@ -53,3 +57,6 @@ Operator(Assignment), Integer(4), Symbol(Semicolon), Keyword(Return), Id("a"), O
 3. <a href="https://github.com/nlsandler/write_a_c_compiler">自己编写一个c 编译器</a>
 4. <a href="https://godbolt.org/">在线compiler explorer</a> 
 5. <a href='https://codeday.me/bug/20170819/56357.html'>编译器 – 构造 – 什么是编译器,链接器,加载器？</a>
+
+工具：
+1. <a href ='https://godbolt.org/'>在线compiler explorer</a>
