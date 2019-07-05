@@ -60,3 +60,4 @@ ESP（Extended Stack Pointer,扩展栈指针寄存器)寄存器：是指针寄�
 
 工具：
 1. <a href ='https://godbolt.org/'>在线compiler explorer</a>
+2. <a href='http://www.cs.virginia.edu/~evans/cs216/guides/x86.html'>x86 Assembly Guide x86 汇编指引</a>
